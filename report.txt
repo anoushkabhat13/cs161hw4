@@ -1,0 +1,15 @@
+1. No, when k=3, SAT is not satisfiable
+2. Yes, when k=4, SAT is satisfiable
+3. The results essentially tell us that we need 4 or more colors to graph the coloring problem. 4 is actually also the maximum number of edges from a vertex in the graph. 
+Let's say we have 4 colors, say yellow, blue, green, orange. This is a possible solution to the graph coloring:
+Node 1 - Yellow
+Node 2 - Blue 
+Node 3 - Yellow
+Node 4 - Blue
+Node 5 - Green
+Node 6 - orange
+Node 7 - Green 
+
+4. The minimum number of colors required is 8. I used rsat solver since the graph was much more complex. 7 didn't work, but 8 colors and onwards were satisfiable.
+
+

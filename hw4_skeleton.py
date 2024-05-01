@@ -97,4 +97,6 @@ def graph_coloring_to_sat(graph_fl, sat_fl, k):
 
 # Example function call
 if __name__ == "__main__":
-    graph_coloring_to_sat("graph1.txt", "graph1_4.cnf", 4)
+    graph_coloring_to_sat("graph2.txt", "graph2_7.cnf", 7)
+    graph_coloring_to_sat("graph2.txt", "graph2_8.cnf", 8)
+    graph_coloring_to_sat("graph2.txt", "graph2_9.cnf", 9)
